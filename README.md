@@ -1,7 +1,10 @@
 # SPRING PLUS
 
 ## EC2 설정
-![EC2설정]("C:\Users\kikye\Pictures\Screenshots\스크린샷 2024-10-08 211841.png")
+![EC2설정]("")
+
+## RDS 설정
+![RDS설정]("")
 
 ## Application Health Check
 
