@@ -4,14 +4,16 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.example.expert.config.CustomUserDetails;
-import org.example.expert.domain.common.dto.AuthUser;
 import org.example.expert.domain.common.entity.Timestamped;
 import org.example.expert.domain.user.enums.UserRole;
 
 @Getter
 @Entity
 @NoArgsConstructor
-@Table(name = "users")
+// 1. 닉네임 컬럼 인덱싱
+@Table(name = "users", indexes = {
+        @Index(name = "idx_nickname", columnList = "nickname")
+})
 public class User extends Timestamped {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

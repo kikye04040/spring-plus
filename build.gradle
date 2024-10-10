@@ -85,7 +85,3 @@ sourceSets {
 clean {
     delete file(generated)
 }
-
-tasks.withType(Test) {
-    enabled = false
-}
