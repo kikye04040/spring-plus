@@ -20,7 +20,7 @@
 
 ## ✅ Health Check API
 
-- **URL**: `http://<EC2-Public-IP>:8080/health`
+- **URL**: `http://13.209.122.33:8080/health`
 - **Method**: GET
 - **Response**: `"Application is running"`
 
