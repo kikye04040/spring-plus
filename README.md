@@ -90,3 +90,4 @@
 
 [JPA에서 QueryDSL 구현하는 방법을 작성한 블로그입니다.](https://kimslab01.tistory.com/51)
 
+[EC2 ssh 연결 안되는 문제 해결 트러블슈팅 블로그입니다.](https://kimslab01.tistory.com/58)
